@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm.OwnAmountController">
+   <children>
+      <Label layoutX="65.0" layoutY="59.0" text="ATM">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="126.0" text="Welcome">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="147.0" text="USER">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="withDrawButton" layoutX="292.0" layoutY="261.0" mnemonicParsing="false" onAction="#withDraw" prefHeight="28.0" prefWidth="71.0" text="WithDraw" />
+      <Label layoutX="276.0" layoutY="146.0" prefHeight="21.0" prefWidth="103.0" text="Enter Amount">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="amountTextField" layoutX="213.0" layoutY="198.0" prefHeight="38.0" prefWidth="228.0" />
+      <Button fx:id="homeButton" layoutX="64.0" layoutY="312.0" mnemonicParsing="false" onAction="#home" text="Home" />
+   </children>
+</AnchorPane>

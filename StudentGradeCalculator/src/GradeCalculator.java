@@ -23,9 +23,9 @@ public class GradeCalculator {
         for(int i=0;i< report.size();i++){
             String element=report.get(i);
             if (!element.equals("Done")){
-                System.out.println(element);
+                //System.out.println(element);
                 String[]  array=((report.get(i)).split("="));
-                System.out.println(array);
+                //System.out.println(array);
                 marks.add(Integer.valueOf(array[1]));
                 subjects.add(array[0]);
             }
